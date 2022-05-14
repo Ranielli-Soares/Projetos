@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+
+    <link rel="stylesheet" href="Styles/style.css">
+  
+    <title>Churrascômetro</title>
+</head>
+
+<body>
+    
+    <section>
+        <div class="help">
+            <img onclick="instrucoes()" src="Assets/help.png">
+        </div>
+        <div id="inst">
+            <h2> Instruções! </h2>
+            <ul>
+                <li>Insira a quantidade de adultos,</li>
+                <li>Insira a quantidade de crianças,</li>
+                <li>Insira a quantidade de horas do evento,</li>
+                <li>Clique em calcular!</li>
+            </ul>
+            <h3>Obs: O calculo é baseado em:</h3>
+            <ul>
+                <li>Adultos - 400G de carne</li>
+                <li>Adultos - 1200ml de cerveja</li>
+                <li>Adultos - 700ml de água ou refrigerante</li>
+                <li>Crianças - 200G de carne</li>
+                <li>Crianças - 350ml de água ou refrigerante</li>
+            </ul>
+            <div onclick="ocultaInstrucoes()" id="ocultaInst">Entendido</div>
+        </div>
+        <div class="formContainer">
+            <h2>Churrascômetro</h2>
+            <p>Calcule o quanto você irá gastar para seu próximo churrasco e evite desperdícios desnecessários </p>
+            <form>
+                <h3>Adultos:</h3>
+                <input id="adultos" name="adultos" type="number" placeholder="Adultos">
+                <h3>Crianças: </h3>
+                <input id="criancas" name="criancas" type="number" placeholder="Crianças">
+                <h3>Quantidade de Horas: </h3>
+                <input id="horas" name="horas" type="number" placeholder="Horas (h)">
+                
+                <input onclick="calcular()" type="button" value="Calcular" >
+                
+
+                <div id="resultado">
+                    
+                </div>
+            </form>
+        </div>
+    </section>
+    <script src="Scripts/script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(../Assets/Fundo.jpg);
+    background-size: cover;
+    font-size: 20px;
+}
+
+.help {
+    float: right;
+    margin: 10px;
+
+}
+
+#inst {
+    margin-left: 10px;
+    margin-top: 50px;
+    border: solid 2px;
+    color: white;
+    display: none;
+    padding: 5px;
+}
+h2{
+    text-align: center;
+}
+li{
+    list-style-type: none;
+}
+#ocultaInst{
+    margin-top: 5px;
+    text-align: center;
+    color: white;
+    background-color: #0c8891;
+    font-weight: bold;
+    
+}
+
+.formContainer {
+    margin-top: 50px;
+    margin-left: 100px;
+    max-width: 250px;
+    background-color: #ffffffde;
+    padding: 20px;
+    float: left;
+
+}
+
+h3 {
+    margin-top: 10px
+}
+
+input {
+
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+    border: none;
+    margin-bottom: 10px;
+}
+
+input[type="button"] {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+    border: none;
+    color: white;
+    background-color: #48C5CE;
+    font-weight: bold;
+}
